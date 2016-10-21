@@ -18,7 +18,7 @@ $ source bin/activate
 ```
 
 #Admin Login
-#http://localhost:8000/admin/
+http://localhost:8000/admin/
 
 username: cyqlo
 password: cyqlo123
