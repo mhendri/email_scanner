@@ -16,3 +16,9 @@ $ source bin/activate
 (env) $ python manage.py runserver
 (env) $ python manage.py createsuperuser
 ```
+
+#Admin Login
+#http://localhost:8000/admin/
+
+username: cyqlo
+password: cyqlo123
