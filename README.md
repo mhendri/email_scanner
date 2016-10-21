@@ -8,11 +8,11 @@ $ sudo pip install virtualenv
 $ virtualenv env
 $ cd env
 $ source bin/activate
-$ git clone https://github.com/johnplaydrums/email_scanner
-$ cd email_scanner
-$ sudo pip install -r requirements.txt
-$ python manage.py makemigrations
-$ python manage.py migrate
-$ python manage.py runserver
-$ python manage.py createsuperuser
+(env) $ git clone https://github.com/johnplaydrums/email_scanner
+(env) $ cd email_scanner
+(env) $ sudo pip install -r requirements.txt
+(env) $ python manage.py makemigrations
+(env) $ python manage.py migrate
+(env) $ python manage.py runserver
+(env) $ python manage.py createsuperuser
 ```
