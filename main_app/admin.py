@@ -1,5 +1,6 @@
 from django.contrib import admin 
   
-from .models import Priviledged
-admin.site.register(Priviledged)
+from .models import Flagged, UploadEmail 
+admin.site.register(Flagged)
+admin.site.register(UploadEmail)
 
