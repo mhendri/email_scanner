@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/process_email/" method="post">{% csrf_token %}
+  <label for="id_from">From</label>
+  <input type="text" id="id_from" name="from" class="form-control" placeholder="Email address">
+  <br>
+  <label for="id_tot">To</label>
+  <input type="text" id="id_to" name="to" class="form-control" placeholder="Email address">
+  <br>
+  <label for="id_subject">Subject</label>
+  <input type="text" id="id_subject" name="subject" class="form-control" placeholder="Email subject">
+  <br>
+  <label for="id_body">Body</label>
+  <textarea name="body" id="id_body" class="form-control" rows="5" placeholder="Email body  "></textarea>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
