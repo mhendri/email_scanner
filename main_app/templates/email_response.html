@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+  {% if flagged == 'False' %}
+    <h3 class="text-center" style="color: green">Email Sent!</h3>
+  {% elif flagged == 'comms' %}
+    <h3 class="text-center" style="color: red">
+      Your email has been flagged for commucation between privileged users. Please contact your manager.
+    </h3>
+    {% elif flagged == 'words' %}
+      <h3 class="text-center" style="color: red">
+        Your email has been flagged for potential confidential information. Please contact your manager.
+      </h3>
+  {% endif %}
+{% endblock %}
