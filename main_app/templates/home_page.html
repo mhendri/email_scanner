@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
+<h3 class="text-center">Email client</h3>
 <form action="/process_email/" method="post">{% csrf_token %}
   <label for="id_from">From</label>
   <input type="text" id="id_from" name="from" class="form-control" placeholder="Email address">
   <br>
-  <label for="id_tot">To</label>
+  <label for="id_to">To</label>
   <input type="text" id="id_to" name="to" class="form-control" placeholder="Email address">
   <br>
   <label for="id_subject">Subject</label>
