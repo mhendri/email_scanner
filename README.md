@@ -1,6 +1,9 @@
 # Email Scanner
 ## Scans outgoing emails for sensitive information
 
+Background
+This project was completed in 22 hours as part of a hackathon. The Enron email corpus was used to build a dictionary of "suspicious" words and phrases that would flag the email for administraro review before being delivered 
+
 Set Up
 
 ```
